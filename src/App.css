@@ -7,7 +7,7 @@
   --text-color: #faf2f2;
   --text-light: #666;
   --background-color: #1b1c1d;
-  --card-background: #ffffff;
+  --card-background: #f1f1f1;
   --border-color: #e1e4e8;
   --code-background: #0d0d0e;
   --highlight-color: #837e7e;
@@ -22,7 +22,7 @@
 }
 
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
   color: var(--text-color);
   background-color: var(--background-color);
@@ -52,13 +52,13 @@ pre {
   border-radius: 4px;
   overflow-x: auto;
   margin: 16px 0;
-  font-family: 'Consolas', 'Monaco', monospace;
+  font-family: "Consolas", "Monaco", monospace;
   font-size: 14px;
   line-height: 1.4;
 }
 
 code {
-  font-family: 'Consolas', 'Monaco', monospace;
+  font-family: "Consolas", "Monaco", monospace;
   background-color: var(--code-background);
   padding: 2px 4px;
   border-radius: 3px;
@@ -219,7 +219,7 @@ code {
 .module-description {
   margin: 16px 0;
   font-size: 18px;
-  color: var(--text-light);
+  color: #ececec;
 }
 
 .content-navigation {
@@ -289,7 +289,8 @@ code {
   margin-bottom: 16px;
 }
 
-.topic-content ul, .topic-content ol {
+.topic-content ul,
+.topic-content ol {
   margin-bottom: 16px;
   margin-left: 24px;
 }
@@ -306,7 +307,8 @@ code {
   border-top: 1px solid var(--border-color);
 }
 
-.prev-button, .next-button {
+.prev-button,
+.next-button {
   padding: 10px 16px;
   background-color: var(--primary-color);
   color: white;
@@ -315,7 +317,8 @@ code {
   transition: background-color 0.2s;
 }
 
-.prev-button:hover, .next-button:hover {
+.prev-button:hover,
+.next-button:hover {
   background-color: var(--primary-dark);
   text-decoration: none;
 }
@@ -346,7 +349,7 @@ code {
 .code-editor {
   width: 100%;
   padding: 16px;
-  font-family: 'Consolas', 'Monaco', monospace;
+  font-family: "Consolas", "Monaco", monospace;
   font-size: 14px;
   line-height: 1.5;
   border: 1px solid var(--border-color);
@@ -389,22 +392,23 @@ code {
   .content-navigation {
     flex-direction: column;
   }
-  
+
   .sidebar {
     width: 100%;
     margin-bottom: 24px;
   }
-  
+
   .modules-grid {
     grid-template-columns: 1fr;
   }
-  
+
   .navigation-buttons {
     flex-direction: column;
     gap: 12px;
   }
-  
-  .prev-button, .next-button {
+
+  .prev-button,
+  .next-button {
     text-align: center;
   }
 }
@@ -413,7 +417,7 @@ code {
   .app-header {
     padding: 0 16px;
   }
-  
+
   .header-content {
     height: auto;
     padding: 16px 0;
@@ -421,12 +425,12 @@ code {
     align-items: flex-start;
     gap: 12px;
   }
-  
+
   .main-nav {
     width: 100%;
     justify-content: space-between;
   }
-  
+
   .app-content {
     padding: 16px;
   }
