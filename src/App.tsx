@@ -250,7 +250,7 @@ const Exercicio = () => {
                 </button>
               </div>
               
-              {mostrarResposta && (
+              {mostrarResposta && exercicioId && (
                 <div className="exercise-answer">
                   <h3>Resposta:</h3>
                   <div 
